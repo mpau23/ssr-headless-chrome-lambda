@@ -13,9 +13,7 @@ exports.handler = async (event, context, callback) => {
     });
 
     const headers = {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Credentials": true,
-        "access-control-allow-methods": "GET"
+        "User-Agent" : "prerendercloud"
     };
 
     var encodedTargetUrl = "https://www.google.co.uk";
